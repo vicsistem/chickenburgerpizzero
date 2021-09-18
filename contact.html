@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chicken Burger Pizzero- Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/logo-chicken.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							
+							<div class="tm-site-text-box" style="color: rgb(8, 8, 8);">
+								<h1 class="tm-site-title">CHICKEN BURGER PIZZERO</h1>
+								<h6 class="tm-site-description">Sabor Y Servicio al Instante</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+
+
+			<div class="tm-container-inner-2 tm-contact-section">
+				<div class="row">
+					<div class="col-md-6">
+						<div >
+							<br>
+							<h4 class="tm-info-title tm-text-success" style="color: goldenrod;">Estamos ubicados</h4>
+							<address>
+								Ecuador, Pichincha, Quito, Yaruqui, Calle Eloy Alfaro junto a la iglesia Buen Pastor
+							</address>
+							<a href="tel:0962658876" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i>0962658876
+							</a>
+							    <br>
+								<i class="fas fa-envelope tm-contact-icon"></i>chicken.burger.pizzero@hotmail.com
+							</a>
+							<div class="tm-contact-social">
+								<a href="https://www.facebook.com/profile.php?id=100071746164147&sk=about_overview" class="tm-social-link"><i class="fab fa-facebook tm-social-icon" target="_blank"></i></a>
+							<!--<a href="#" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a> 
+							 <a href="#" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>-->
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+<!-- How to change your own map point
+	1. Go to Google Maps
+	2. Click on your location point
+	3. Click "Share" and choose "Embed map" tab
+	4. Copy only URL and paste it within the src="" field below
+-->
+			<div class="tm-container-inner-2 tm-map-section">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.36264656047828!2d-78.31957652455426!3d-0.16213872461204196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d593a4fb06b82d%3A0x4ef459fc7208a487!2sChicken%20Burger%20Pizzero!5e0!3m2!1ses-419!2sec!4v1630097276754!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" target="_blank"></iframe>						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2021 Chicken Burger Pizzero 
+            
+            | Design By: <a rel="nofollow" href="https://www.facebook.com/victor.caspi.3/" target="_blank">Victor Caspi</a></p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
